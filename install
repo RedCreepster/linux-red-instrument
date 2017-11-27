@@ -1,0 +1,10 @@
+#!/bin/bash
+if [ "$EUID" -ne 0 ]
+  then echo "Please run as root"
+  exit
+fi
+
+cp update.sh /usr/local/bin/update
+chmod +x /usr/local/bin/update
+
+update && apt-get install bash-completion && cp /etc/skel/.bashrc ~/.bashrc && source ~/.bashrc
