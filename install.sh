@@ -7,4 +7,6 @@ git clone https://github.com/RedCreepster/linux-red-instrument.git
 
 cd linux-red-instrument/
 
+chmod +x ./install
+
 ./install
