@@ -5,8 +5,8 @@ cd /tmp/
 
 git clone https://github.com/RedCreepster/linux-red-instrument.git
 
-cd linux-red-instrument/
+cd /tmp/linux-red-instrument/
 
-chmod +x ./install
+chmod +x /tmp/linux-red-instrument/install
 
-./install
+/tmp/linux-red-instrument/install
